@@ -84,5 +84,9 @@ namespace TestProject1
             // Assert czy ilość produktów z ceną jest większą od zera równa całkowitej liczbie produktów
             Assert.AreEqual(produkty.Count, licznik, "Wszystkie produkty powinny mieć cenę większą od 0.");
         }
+        //Robimy dwa dodatkowe testy:
+        //1. Sprawdzamy czy są dokładnie 3 kategorie produktów w liście
+        //2. Sprawdzamy czy w kategorii "Kategoria1" jest dokładnie 5 produktów
+        //Najpierw napiszcie sobie funkcję pomocniczą która przygotuje wam dane do testów
     }
 }
