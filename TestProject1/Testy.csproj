@@ -12,6 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\KatalogProduktow4L\KatalogProduktow4L.csproj" />
     <ProjectReference Include="..\Ewaluacja4L\Ewaluacja4L.csproj" />
   </ItemGroup>
 
